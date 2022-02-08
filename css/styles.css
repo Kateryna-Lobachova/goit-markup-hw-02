@@ -77,6 +77,7 @@ body {
 }
 
 .modal-button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -93,7 +94,6 @@ body {
 /*=====ABOUT=====*/
 
 .about-title {
-  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -103,7 +103,6 @@ body {
 }
 
 .about-text {
-  font-family: var(--primary-font-family);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -156,7 +155,6 @@ body {
   background-color: var(--background-dark-theme);
 }
 .adress-list {
-  font-family: var(--primary-font-family);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -172,8 +170,8 @@ body {
 /*=====PORTFOLIO=====*/
 
 .filter-button {
-  font-family: var(--primary-font-family);
-  font-style: 500;
+  font-family: inherit;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
@@ -185,8 +183,7 @@ body {
   background-color: var(--accent-color);
 }
 .filter-subtitle {
-  font-family: var(--primary-font-family);
-  font-style: 700;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   vertical-align: top;
@@ -194,8 +191,7 @@ body {
   color: var(--title-color);
 }
 .filter-descript {
-  font-family: var(--primary-font-family);
-  font-style: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   vertical-align: top;
